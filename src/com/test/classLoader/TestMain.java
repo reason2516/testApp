@@ -1,43 +1,39 @@
 package com.test.classLoader;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class TestMain {
     public static void main(String[] args) throws Exception {
-        ClassLoader myClassLoader = new ClassLoader() {
+        Thread.currentThread().getContextClassLoader().loadClass("com.test.classLoader.DemoClass");
+        Thread.currentThread().getContextClassLoader().loadClass("com.test.classLoader.DemoClass");
+
+        ClassLoader myClassLoader = new MyClassLoader();
+
+        new Timer().schedule(new TimerTask() {
+                    ClassLoader taskMyClassLoader = new MyClassLoader();
             @Override
-            public Class<?> loadClass(String name) throws ClassNotFoundException {
-                Class<?> aClass = null;
-                String fileName = name.substring(name.lastIndexOf(".") + 1) + ".class";
-                InputStream is = getClass().getResourceAsStream(fileName);
-
-                if (is == null) {
-                    aClass = super.loadClass(name);
-                } else {
-                    try {
-                        byte[] bytes = new byte[is.available()];
-                        is.read(bytes);
-                        aClass = defineClass(name, bytes, 0, bytes.length);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+            public void run() {
+                try {
+                    taskMyClassLoader.loadClass("com.test.classLoader.DemoClass").newInstance();
+                } catch (InstantiationException e) {
+                    e.printStackTrace();
+                } catch (IllegalAccessException e) {
+                    e.printStackTrace();
+                } catch (ClassNotFoundException e) {
+                    e.printStackTrace();
                 }
-
-                return aClass;
             }
-        };
-
-
-        Object instance = myClassLoader.loadClass("com.test.classLoader.DemoClass").newInstance();
-
-        ClassLoader classLoader1 = instance.getClass().getClassLoader();
-        ClassLoader classLoader2 = DemoClass.class.getClassLoader();
-        ClassLoader mainClassLoader = TestMain.class.getClassLoader();
-
-        System.out.println(classLoader2 == classLoader1);
-        System.out.println();
-        System.out.println(instance.getClass());
-        System.out.println(instance instanceof com.test.classLoader.DemoClass);
+        }, 0, 2000);
+//        Object instance = myClassLoader.loadClass("com.test.classLoader.DemoClass").newInstance();
+//
+//        ClassLoader classLoader1 = instance.getClass().getClassLoader();
+//        ClassLoader classLoader2 = DemoClass.class.getClassLoader();
+//        ClassLoader mainClassLoader = TestMain.class.getClassLoader();
+//
+//        System.out.println(classLoader2 == classLoader1);
+//        System.out.println();
+//        System.out.println(instance.getClass());
+//        System.out.println(instance instanceof com.test.classLoader.DemoClass);
     }
 }
