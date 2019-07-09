@@ -27,7 +27,6 @@ public class TestMain {
         }, 0, 2000);
 //        Object instance = myClassLoader.loadClass("com.test.classLoader.DemoClass").newInstance();
 //
-
 //        ClassLoader classLoader1 = instance.getClass().getClassLoader();
 //        ClassLoader classLoader2 = DemoClass.class.getClassLoader();
 //        ClassLoader mainClassLoader = TestMain.class.getClassLoader();
