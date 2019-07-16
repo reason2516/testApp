@@ -7,6 +7,11 @@ public class DBUtil {
 
     public final static String FIELD_SEPARATOR = "__";
 
+    /**
+     * 根据字段前缀将字段分割成一个多层Map格式，为转换成DTO做准备
+     * @param originResult
+     * @return
+     */
     public static Map resultToMap(Map<String, Object> originResult) {
         Map<String, Object> newResult = new HashMap<>();
         if (originResult == null) {
