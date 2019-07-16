@@ -5,6 +5,7 @@ import java.lang.reflect.Method;
 
 public class TestReflect {
     public static void main(String[] args) throws InterruptedException {
+        Object o = new Object();
         Class<TestInterface> testInterfaceClass = TestInterface.class;
         Method[] declaredMethods = testInterfaceClass.getDeclaredMethods();
         Thread.sleep(10000000);
