@@ -14,9 +14,7 @@ public class DBUtil {
             return newResult;
         }
 
-        Iterator<Map.Entry<String, Object>> iterator = originResult.entrySet().iterator();
-        while (iterator.hasNext()) {
-            Map.Entry<String, Object> next = iterator.next();
+        for (Map.Entry<String, Object> next : originResult.entrySet()) {
             String key = next.getKey();
             String[] split = key.split(FIELD_SEPARATOR);
             Object value = next.getValue();
