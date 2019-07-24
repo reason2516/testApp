@@ -19,50 +19,57 @@ import java.util.ArrayList;
  * 链接：https://leetcode-cn.com/problems/add-two-numbers
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
 
 public class AddTwoNumbers0002 {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode preNode = null;
-        ListNode headNode = null;
 
-        int nextBit = 0;
+    class ListNode {
+        int val;
+        ListNode next;
 
-        while (l1 != null || l2 != null || nextBit != 0) {
-            int thisVal = 0;
-            thisVal += nextBit;
-            if (l1 != null) {
-                thisVal += l1.val;
-                l1 = l1.next;
-            }
-            if (l2 != null) {
-                thisVal += l2.val;
-                l2 = l2.next;
-            }
-
-            ListNode curNode = new ListNode(thisVal % 10);
-            nextBit = thisVal / 10;
-
-            // 指向下一个
-            if (preNode != null) {
-                preNode.next = curNode;
-            }
-            // preNode指针获取
-            preNode = curNode;
-
-            if (headNode == null) {
-                headNode = curNode;
-            }
-
+        ListNode(int x) {
+            val = x;
         }
-
-        return headNode;
     }
+
+
+    class Solution{
+        public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+            ListNode preNode = null;
+            ListNode headNode = null;
+
+            int nextBit = 0;
+
+            while (l1 != null || l2 != null || nextBit != 0) {
+                int thisVal = 0;
+                thisVal += nextBit;
+                if (l1 != null) {
+                    thisVal += l1.val;
+                    l1 = l1.next;
+                }
+                if (l2 != null) {
+                    thisVal += l2.val;
+                    l2 = l2.next;
+                }
+
+                ListNode curNode = new ListNode(thisVal % 10);
+                nextBit = thisVal / 10;
+
+                // 指向下一个
+                if (preNode != null) {
+                    preNode.next = curNode;
+                }
+                // preNode指针获取
+                preNode = curNode;
+
+                if (headNode == null) {
+                    headNode = curNode;
+                }
+
+            }
+
+            return headNode;
+        }
+    }
+
+
 }

@@ -1,5 +1,7 @@
 package com.test.testApp.leetcode.re02;
 
+
+public class ContainerWithMostWater0011 {
 class Solution {
     /**
      * 解题思路：
@@ -28,7 +30,5 @@ class Solution {
         return maxWater;
     }
 }
-
-public class ContainerWithMostWater0011 {
 
 }
