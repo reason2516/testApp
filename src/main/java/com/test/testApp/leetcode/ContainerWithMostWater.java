@@ -30,5 +30,6 @@ public class ContainerWithMostWater {
         }
         return maxArea;
     }
+
     // 方法2 暴力枚举法 复杂度 O(n^2)
 }
