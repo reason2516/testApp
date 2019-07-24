@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a82055cf-b814-4aa8-9218-e55f815fd151" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoArrayCrossUnion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/array/TwoArrayCrossUnion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TwoBigNumAdd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/string/TwoBigNumAdd.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContainerWithMostWater11.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContainerWithMostWater11.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="609">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContainerWithMostWater.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -182,11 +178,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/test/math/bignumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/test/math/bigNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/MedianOfTwoSortedArrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/LongestSubstringWithoutRepeatingCharacters003.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater11.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java" />
       </list>
     </option>
   </component>
@@ -261,26 +257,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testApp" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testApp" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testApp" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="re02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testApp" type="b2602c69:ProjectViewProjectNode" />
@@ -457,12 +433,12 @@
       <option name="presentableId" value="Default" />
       <updated>1562839422245</updated>
       <workItem from="1562839424839" duration="45408000" />
-      <workItem from="1563795943178" duration="22394000" />
+      <workItem from="1563795943178" duration="22585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67802000" />
+    <option name="totallyTimeSpent" value="67993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -737,13 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/MedianOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -760,8 +729,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="609">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>

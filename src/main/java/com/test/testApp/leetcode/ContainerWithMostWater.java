@@ -19,9 +19,6 @@ public class ContainerWithMostWater {
         int rightIndex = height.length - 1;
 
         while (leftIndex <= rightIndex) {
-//            int minHeight = height[leftIndex] < height[rightIndex] ? height[leftIndex] : height[rightIndex];
-//            int tempArea = minHeight * (rightIndex - leftIndex);
-//            maxArea = maxArea > tempArea ? maxArea : tempArea;
             maxArea = Math.max(maxArea, Math.min(height[leftIndex], height[rightIndex]) * (rightIndex - leftIndex));
             if (height[leftIndex] > height[rightIndex])
                 rightIndex--;
