@@ -7,9 +7,11 @@ import java.util.List;
 public class TestString {
 
     public static void main(String[] args) {
-        String str1 = "aa" + "bb";
-        String str = "aabb";
-        System.out.println(str == str1);
+        String str1 = "0123456789";
+        System.out.println(str1.substring(0,1));
+//        String str1 = "aa" + "bb";
+//        String str = "aabb";
+//        System.out.println(str == str1);
 
 //        Object o = null;
 //        System.out.println("this is "+ o);
