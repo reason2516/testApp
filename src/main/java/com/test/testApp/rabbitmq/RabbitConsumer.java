@@ -2,7 +2,6 @@ package com.test.testApp.rabbitmq;
 
 import com.rabbitmq.client.*;
 
-import javax.sound.sampled.Port;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;

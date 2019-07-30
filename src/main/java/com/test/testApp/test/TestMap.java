@@ -4,6 +4,12 @@ import java.util.*;
 
 public class TestMap {
     public static void main(String[] args) {
+        Map<Character,Character> map = new HashMap<>();
+        map.put('c','d');
+        boolean c = map.containsKey('c');
+        System.out.println(c);
+
+
 //        Map<String, String> map = new LinkedHashMap<>();
 //
 //        map.put("001","001");
@@ -21,8 +27,8 @@ public class TestMap {
 //        HashMap<Object, Object> hm = new HashMap<>();
 //        hm.put(null,"111");
 
-        TreeMap<Object, Object> tm = new TreeMap<>();
-        tm.put(1,null);
+//        TreeMap<Object, Object> tm = new TreeMap<>();
+//        tm.put(1,null);
 
     }
 }
