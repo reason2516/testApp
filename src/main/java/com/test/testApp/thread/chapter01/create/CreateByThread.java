@@ -1,4 +1,4 @@
-package com.test.testApp.thread.chapter01;
+package com.test.testApp.thread.chapter01.create;
 
 public class CreateByThread {
     /**

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a82055cf-b814-4aa8-9218-e55f815fd151" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/AddTwoNumbers0002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/AddTwoNumbers0002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/twoSum0001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/TwoSum0001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByFutureTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByFutureTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +19,56 @@
     <SUITE FILE_PATH="coverage/testApp$MedianOfTwoSortedArrays.ic" NAME="MedianOfTwoSortedArrays Coverage Results" MODIFIED="1563942719092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.test.testApp.leetcode.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/testApp$YieldTest.ic" NAME="YieldTest Coverage Results" MODIFIED="1564653998443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.test.testApp.thread.chapter01.yield.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myActivateViewOnRun" value="false" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwoSum0001.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/TwoSum0001.java">
+      <file leaf-file-name="NotifyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/notify/NotifyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="608">
+              <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotifyAllTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/notify/NotifyAllTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeadLockTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/deadlock/DeadLockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="294" column="29" selection-start-line="294" selection-start-column="29" selection-end-line="294" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SleepTest01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/sleep/SleepTest01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-348">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,59 +76,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddTwoNumbers0002.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/AddTwoNumbers0002.java">
+      <file leaf-file-name="SleepInterrupt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/sleep/SleepInterrupt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+            <state relative-caret-position="95">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Powxn0050.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/Powxn0050.java">
+      <file leaf-file-name="YieldTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/yield/YieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateByThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByThread.java">
+      <file leaf-file-name="InterruptTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/interrupt/InterruptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateByRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByRunnable.java">
+      <file leaf-file-name="InterruptTest02.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/interrupt/InterruptTest02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateByFutureTask.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByFutureTask.java">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="190" column="22" lean-forward="true" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+            <state relative-caret-position="201">
+              <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -122,22 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/mulitithreading/deadlock/DeadLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/test/TestDate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/array/TwoArrayCrossUion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/array/TowArrayIntersection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/array/TwoArrayCrossUnion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/string/TwoBigNumAdd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/twoSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/test/math/bignumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/test/math/bigNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/LongestSubstringWithoutRepeatingCharacters003.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/LongestSubstringWithoutRepeatingCharacters0003.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater11.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater0011.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ReverseInteger0007.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/test/TestString.java" />
@@ -173,6 +188,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByRunnable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByFutureTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByFutureTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/QueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/WaitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/demo/Queue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/WaitInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/notify/NotifyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/sleep/SleepTest01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/sleep/SleepInterrupt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/yield/YieldTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/interrupt/InterruptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/interrupt/InterruptTest02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/notify/NotifyAllTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/deadlock/DeadLockTest.java" />
       </list>
     </option>
   </component>
@@ -258,6 +289,17 @@
               <item name="thread" type="462c0819:PsiDirectoryNode" />
               <item name="chapter01" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testApp" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter01" type="462c0819:PsiDirectoryNode" />
+              <item name="interrupt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,10 +318,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test.testApp.thread.chapter01.interrupt" />
+      <recent name="com.test.testApp.thread.chapter01.sleep" />
+      <recent name="com.test.testApp.thread.chapter01.notify" />
+      <recent name="com.test.testApp.thread.chapter01.wait" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/test/testApp/thread" />
       <recent name="C:\project\project_java\testApp\src\main\java\com\test\testApp\mail" />
       <recent name="C:\project\project_java\testApp\src\main\java\com\test\testApp" />
     </key>
@@ -296,58 +345,58 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateByFutureTask">
-    <configuration name="CreateByFutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.CreateByFutureTask" />
+  <component name="RunManager" selected="Application.DeadLockTest">
+    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.deadlock.DeadLockTest" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.thread.chapter01.*" />
+          <option name="PATTERN" value="com.test.testApp.thread.chapter01.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CreateByRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.CreateByRunnable" />
+    <configuration name="InterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.interrupt.InterruptTest" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.thread.chapter01.*" />
+          <option name="PATTERN" value="com.test.testApp.thread.chapter01.interrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CreateByThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.CreateByThread" />
+    <configuration name="InterruptTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.interrupt.InterruptTest02" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.thread.chapter01.*" />
+          <option name="PATTERN" value="com.test.testApp.thread.chapter01.interrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KthLargestElementInAStream703" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.leetcode.re02.KthLargestElementInAStream703" />
+    <configuration name="NotifyAllTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.notify.NotifyAllTest" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.leetcode.re02.*" />
+          <option name="PATTERN" value="com.test.testApp.thread.chapter01.notify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaximumConvention" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.algorithms.array.MaximumConvention" />
+    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.yield.YieldTest" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.algorithms.array.*" />
+          <option name="PATTERN" value="com.test.testApp.thread.chapter01.yield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,19 +443,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.KthLargestElementInAStream703" />
-      <item itemvalue="Application.MaximumConvention" />
-      <item itemvalue="Application.CreateByThread" />
-      <item itemvalue="Application.CreateByRunnable" />
-      <item itemvalue="Application.CreateByFutureTask" />
+      <item itemvalue="Application.YieldTest" />
+      <item itemvalue="Application.InterruptTest" />
+      <item itemvalue="Application.InterruptTest02" />
+      <item itemvalue="Application.NotifyAllTest" />
+      <item itemvalue="Application.DeadLockTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreateByFutureTask" />
-        <item itemvalue="Application.CreateByRunnable" />
-        <item itemvalue="Application.CreateByThread" />
-        <item itemvalue="Application.MaximumConvention" />
-        <item itemvalue="Application.KthLargestElementInAStream703" />
+        <item itemvalue="Application.DeadLockTest" />
+        <item itemvalue="Application.NotifyAllTest" />
+        <item itemvalue="Application.InterruptTest02" />
+        <item itemvalue="Application.InterruptTest" />
+        <item itemvalue="Application.YieldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -426,12 +475,12 @@
       <workItem from="1562839424839" duration="45408000" />
       <workItem from="1563795943178" duration="31430000" />
       <workItem from="1564029105038" duration="3490000" />
-      <workItem from="1564385038605" duration="35687000" />
+      <workItem from="1564385038605" duration="44838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116015000" />
+    <option name="totallyTimeSpent" value="125166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -441,7 +490,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3293348" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="right" id="Mongo Explorer" weight="0.32978722" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -458,6 +507,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32913387" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32913387" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945474" visible="true" weight="0.35410336" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -466,7 +516,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -479,84 +528,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="50" />
+      <option name="time" value="51" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/array/TwoArrayCrossUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/algorithms/string/TwoBigNumAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/math/BigDecimal.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/LongestSubstringWithoutRepeatingCharacters0003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/ContainerWithMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/test/math/bigNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/leetcode/re02/ContainerWithMostWater0011.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/Integer.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/String.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/DefaultConsumer.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2.pom" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2.jar!/com/rabbitmq/client/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="137" column="77" selection-start-line="137" selection-start-column="77" selection-end-line="137" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.2/amqp-client-5.7.2-sources.jar!/com/rabbitmq/client/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/rabbitmq/RabbitConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/rabbitmq/RabbitProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
@@ -791,20 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/util/concurrent/Callable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -819,27 +780,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByRunnable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/demo/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/demo/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/demo/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/demo/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/create/CreateByFutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="190" column="22" lean-forward="true" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
+        <state relative-caret-position="361">
+          <caret line="115" column="55" lean-forward="true" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+          <folding>
+            <element signature="e#3755#3785#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/CreateByFutureTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/wait/WaitInterrupt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/sleep/SleepTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/sleep/SleepInterrupt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/yield/YieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/interrupt/InterruptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/interrupt/InterruptTest02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/notify/NotifyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jvm/jdk1_8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="294" column="29" selection-start-line="294" selection-start-column="29" selection-end-line="294" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/notify/NotifyAllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/testApp/thread/chapter01/deadlock/DeadLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
