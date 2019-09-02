@@ -1,5 +1,6 @@
 package com.test.testApp.test;
 
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -7,8 +8,14 @@ import java.util.List;
 public class TestString {
 
     public static void main(String[] args) {
-        String str1 = "0123456789";
-        System.out.println(str1.substring(0,1));
+
+        String[] sArr = new String[]{"bcd","cde"};
+        System.out.println(longestCommonPrefix(sArr));
+//        String s1 = "123";
+//        String s2 = "2355";
+//        System.out.println(s2.indexOf(s1));
+//        String str1 = "0123456789";
+//        System.out.println(str1.substring(0,1));
 //        String str1 = "aa" + "bb";
 //        String str = "aabb";
 //        System.out.println(str == str1);
@@ -60,5 +67,17 @@ public class TestString {
             num = num / 10;
         }
         return false;
+    }
+
+    public static String longestCommonPrefix(String[] strs) {
+        if (strs.length == 0) return "";
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++)
+            while (strs[i].indexOf(prefix) != 0) {
+                // 字符串截取最后一位
+                prefix = prefix.substring(0, prefix.length() - 1);
+                if (prefix.isEmpty()) return "";
+            }
+        return prefix;
     }
 }
