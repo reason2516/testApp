@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a82055cf-b814-4aa8-9218-e55f815fd151" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/test/TestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/test/TestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/testApp/testInstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/testApp/testInstanceOf.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,15 +30,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>share</find>
-      <find>registeredDrivers</find>
-      <find>addEntry</find>
-      <find>p</find>
-      <find>slf4j</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -56,13 +48,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ddd-o2o" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -89,14 +81,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestCommonPrefix0014">
-    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.deadlock.DeadLockTest" />
+  <component name="RunManager" selected="Application.JedisTest">
+    <configuration name="AddTwoNumbers0002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.leetcode.re03.AddTwoNumbers0002" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.thread.chapter01.deadlock.*" />
+          <option name="PATTERN" value="com.test.testApp.leetcode.re03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.interrupt.InterruptTest02" />
+    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.jedis.JedisTest" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.thread.chapter01.interrupt.*" />
+          <option name="PATTERN" value="com.test.testApp.jedis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,27 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotifyAllTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.thread.chapter01.notify.NotifyAllTest" />
+    <configuration name="TwoNumbers0001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.leetcode.re03.TwoNumbers0001" />
       <module name="testApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.testApp.thread.chapter01.notify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.testApp.test.TestString" />
-      <module name="testApp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.testApp.test.*" />
+          <option name="PATTERN" value="com.test.testApp.leetcode.re03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,6 +140,20 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testInstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.testApp.testInstanceOf" />
+      <module name="testApp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.testApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InterruptTest02" />
-      <item itemvalue="Application.NotifyAllTest" />
-      <item itemvalue="Application.DeadLockTest" />
-      <item itemvalue="Application.TestString" />
       <item itemvalue="Application.LongestCommonPrefix0014" />
+      <item itemvalue="Application.testInstanceOf" />
+      <item itemvalue="Application.TwoNumbers0001" />
+      <item itemvalue="Application.AddTwoNumbers0002" />
+      <item itemvalue="Application.JedisTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JedisTest" />
+        <item itemvalue="Application.AddTwoNumbers0002" />
+        <item itemvalue="Application.TwoNumbers0001" />
+        <item itemvalue="Application.testInstanceOf" />
         <item itemvalue="Application.LongestCommonPrefix0014" />
-        <item itemvalue="Application.TestString" />
-        <item itemvalue="Application.DeadLockTest" />
-        <item itemvalue="Application.NotifyAllTest" />
-        <item itemvalue="Application.InterruptTest02" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +210,10 @@
       <workItem from="1564385038605" duration="44838000" />
       <workItem from="1567326231472" duration="285000" />
       <workItem from="1567329818617" duration="3956000" />
-      <workItem from="1567414747281" duration="4970000" />
+      <workItem from="1567414747281" duration="7863000" />
+      <workItem from="1567503399909" duration="39000" />
+      <workItem from="1567505122137" duration="10179000" />
+      <workItem from="1567579411365" duration="2849000" />
     </task>
     <servers />
   </component>

@@ -12,8 +12,5 @@ public class testInstanceOf {
         System.out.println(map instanceof Map); // 判断实现了某接口的实例
         System.out.println(map instanceof HashMap); // 判断是否为某类的子类的实例
         System.out.println(map instanceof LinkedHashMap); // 判断实例
-        try{
-           int a;
-        }finally {}
     }
 }
